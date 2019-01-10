@@ -58,6 +58,7 @@
 .page-author,
 .page-description {
   height: 100vh;
+  min-height: 969px;
 }
 
 .page-description {
@@ -119,6 +120,7 @@ header {
   padding: 15.6rem;
   background-image: url(img/main-fon.png);
   background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .page-screen {
@@ -127,6 +129,7 @@ header {
   overflow: hidden;
   background-image: url(img/screen-fon.png);
   background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .page-screen figure {
@@ -194,12 +197,15 @@ header {
   align-items: center;
   background-image: url(img/about-fon.png);
   background-repeat: no-repeat;
+  background-size: cover;
 }
     #choosePlayerName {
   padding: 15.6rem;
   height: 100vh;
+  min-height: 969px;
   background-image: url(img/battle-fon.png);
   background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .js-form {
@@ -246,12 +252,13 @@ header {
   outline: none;
   cursor: pointer;
 }#battle {
-  display: flex;
-  align-items: flex-end;
-  padding: 15.6rem;
-  height: 100vh;
-  background-image: url(img/battle-fon.png);
-  background-repeat: no-repeat;
+    display: flex;
+    align-items: flex-end;
+    padding: 4.6%;
+    height: 100vh;
+    background-image: url(img/battle-fon.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #battle .col {
@@ -320,13 +327,13 @@ header {
 .col .card-img-clothers {
   position: absolute;
   top: 91px;
-  right: 88px;
+  left: 42%;
 }
 
 .card-img-weapon {
   position: absolute;
   bottom: 32px;
-  right: 200px;
+  right: 65%;
 }
 
 #player .card-img-weapon {
